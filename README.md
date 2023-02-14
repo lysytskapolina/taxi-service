@@ -52,7 +52,7 @@ Also, this directory contains such directories like exception, lib and util for 
 - HTML/CSS
 
 ## How to run the project locally:
-1. Install JDK, Tomcat v.9.0.5, MySql;
+1. Install JDK, Tomcat v.9.0.5, MySQL;
 2. Clone the repository;
 3. Create a schema using queries from init_db.sql file;
 4. Edit ConnectionUtil class in which change constants' values to your actual DB connection properties;
