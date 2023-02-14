@@ -32,7 +32,7 @@ This project implement 3-tier architecture and follows SOLID principles. So it h
 - service directory contains classes that implement connection between user interface and dao layer and have all business logic;
 - web.filter directory contains the AuthenticationFilter class that implements the logic of giving access to the database only for authenticated user.
 
-Also, this directory contains such directories like exception, lib and util for implementation custom exceptions, annotations, injector and for setting connection to the database.
+Also, this directory contains such directories like exception, lib and util for implementation custom exceptions, annotations, injector, and for setting connection to the database.
 
 ### 💎 resources directory
 
@@ -53,8 +53,9 @@ Also, this directory contains such directories like exception, lib and util for 
 
 ## How to run the project locally:
 1. Install JDK, Tomcat v.9.0.5, MySql;
-2. Create your local copy of this repository;
-3. Create a local copy of the database using queries from init_db.sql file;
-4. Add a configuration of TomCat 9.0.50 to the project;
-5. 🏃‍♂️ Run to the song "The Run and Go" by Twenty One Pilots 🙃
+2. Clone the repository;
+3. Create a schema using queries from init_db.sql file;
+4. Edit ConnectionUtil class in which change constants' values to your actual DB connection properties;
+5. Add a configuration of TomCat 9.0.50 to the project;
+6. 🏃‍♂️ Run to the song "The Run and Go" by Twenty One Pilots 🙃
 
